@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logo Drafts</title>
+<style>
+  :root { --bg:#f4f1ea; --ink:#1d1c1a; --accent:#d2492a; --muted:#6b675f; --line:#dcd6ca; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font-family: "Hiragino Sans","Yu Gothic UI","Noto Sans JP",system-ui,sans-serif; line-height:1.7; }
+  header { max-width:1120px; margin:0 auto; padding:48px 24px 8px; }
+  header h1 { margin:0; font-size:28px; letter-spacing:.02em; }
+  header p { margin:4px 0 0; color:var(--muted); font-size:14px; }
+  main { max-width:1120px; margin:0 auto; padding:24px;
+    display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:24px; }
+  .card { margin:0; background:#fffdf8; border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+  .art { aspect-ratio:1/1; display:grid; place-items:center; border-bottom:1px solid var(--line); }
+  .art img { width:72%; height:auto; }
+  .sizes { display:flex; align-items:flex-end; gap:16px; padding:12px 20px; border-bottom:1px solid var(--line); }
+  figcaption { padding:16px 20px 20px; }
+  .meta { margin:0; font-size:12px; color:var(--muted); }
+  .no { display:inline-block; margin-right:8px; color:var(--accent); font-weight:700; font-variant-numeric:tabular-nums; }
+  h2 { margin:2px 0 6px; font-size:18px; }
+  .idea { margin:0; font-size:14px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Logo Drafts — 「N」ラフ6案</h1>
+  <p>コンセプト：シンプル × 技術っぽい ／ 情報・データ科学を学ぶこと、人にわかりやすく伝えること。下段は 16・32・64px での見え方。</p>
+</header>
+<main>
+    <figure class="card">
+      <div class="art"><img src="draft-01.svg" alt="Draft 01"></div>
+      <div class="sizes" aria-label="小さいサイズでの見え方">
+        <img src="draft-01.svg" width="16" height="16" alt="">
+        <img src="draft-01.svg" width="32" height="32" alt="">
+        <img src="draft-01.svg" width="64" height="64" alt="">
+      </div>
+      <figcaption>
+        <p class="meta"><span class="no">01</span>線の太さ・欠け</p>
+        <h2>太さと欠け</h2>
+        <p class="idea">太い縦線＝積み上げたデータ、細い斜線＝それをつなぐ説明。斜線の欠けは「余白があるから伝わる」こと。</p>
+      </figcaption>
+    </figure>
+    <figure class="card">
+      <div class="art"><img src="draft-02.svg" alt="Draft 02"></div>
+      <div class="sizes" aria-label="小さいサイズでの見え方">
+        <img src="draft-02.svg" width="16" height="16" alt="">
+        <img src="draft-02.svg" width="32" height="32" alt="">
+        <img src="draft-02.svg" width="64" height="64" alt="">
+      </div>
+      <figcaption>
+        <p class="meta"><span class="no">02</span>N × データ（ノード）</p>
+        <h2>ノードでつなぐN</h2>
+        <p class="idea">Nの4つの角をノード、線をエッジに見立てたグラフ。ばらばらの点が「つながる」と意味になる。</p>
+      </figcaption>
+    </figure>
+    <figure class="card">
+      <div class="art"><img src="draft-03.svg" alt="Draft 03"></div>
+      <div class="sizes" aria-label="小さいサイズでの見え方">
+        <img src="draft-03.svg" width="16" height="16" alt="">
+        <img src="draft-03.svg" width="32" height="32" alt="">
+        <img src="draft-03.svg" width="64" height="64" alt="">
+      </div>
+      <figcaption>
+        <p class="meta"><span class="no">03</span>図形の中に収める</p>
+        <h2>枠の中のN</h2>
+        <p class="idea">整理された「枠（データの器）」から、Nが余白として浮かび上がる。情報を整えると要点が見える。</p>
+      </figcaption>
+    </figure>
+    <figure class="card">
+      <div class="art"><img src="draft-04.svg" alt="Draft 04"></div>
+      <div class="sizes" aria-label="小さいサイズでの見え方">
+        <img src="draft-04.svg" width="16" height="16" alt="">
+        <img src="draft-04.svg" width="32" height="32" alt="">
+        <img src="draft-04.svg" width="64" height="64" alt="">
+      </div>
+      <figcaption>
+        <p class="meta"><span class="no">04</span>「N.」の点に意味</p>
+        <h2>N. の点＝最小単位</h2>
+        <p class="idea">句点を四角いピクセルにした「N.」。最小単位のデータであり、伝えたいことを言い切る「。」でもある。</p>
+      </figcaption>
+    </figure>
+    <figure class="card">
+      <div class="art"><img src="draft-05.svg" alt="Draft 05"></div>
+      <div class="sizes" aria-label="小さいサイズでの見え方">
+        <img src="draft-05.svg" width="16" height="16" alt="">
+        <img src="draft-05.svg" width="32" height="32" alt="">
+        <img src="draft-05.svg" width="64" height="64" alt="">
+      </div>
+      <figcaption>
+        <p class="meta"><span class="no">05</span>幾何学的な線だけ</p>
+        <h2>走査線のN</h2>
+        <p class="idea">水平線だけでNを描く「ラスタ化」。世界をデータとして読み取り、線の集まりから形を立ち上げる。</p>
+      </figcaption>
+    </figure>
+    <figure class="card">
+      <div class="art"><img src="draft-06.svg" alt="Draft 06"></div>
+      <div class="sizes" aria-label="小さいサイズでの見え方">
+        <img src="draft-06.svg" width="16" height="16" alt="">
+        <img src="draft-06.svg" width="32" height="32" alt="">
+        <img src="draft-06.svg" width="64" height="64" alt="">
+      </div>
+      <figcaption>
+        <p class="meta"><span class="no">06</span>自由な発想</p>
+        <h2>ピクセルグリッドのN</h2>
+        <p class="idea">5×5のマスで描くN。空きマスの小さな点が「グリッド＝構造」を見せる、画面の最小単位からできた形。</p>
+      </figcaption>
+    </figure>
+</main>
+</body>
+</html>

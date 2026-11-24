@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Draft 02: ノードでつなぐN">
+  <path d="M52 152 L52 48 L148 152 L148 48" fill="none" stroke="#1d1c1a" stroke-width="8" stroke-linejoin="round"/>
+  <g fill="#1d1c1a">
+    <circle cx="52" cy="152" r="13"/>
+    <circle cx="52" cy="48" r="13"/>
+    <circle cx="148" cy="152" r="13"/>
+    <circle cx="148" cy="48" r="13"/>
+    <circle cx="100" cy="100" r="7"/>
+  </g>
+</svg>

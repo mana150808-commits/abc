@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — N.</title>
+  <meta name="description" content="Graphic design / photo portfolio">
+  <link rel="icon" href="logo/final/logo.svg" type="image/svg+xml">
+  <link rel="icon" href="logo/final/logo.png" type="image/png" sizes="1024x1024">
+  <link rel="apple-touch-icon" href="logo/final/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f4f1ea;
+      --ink: #1d1c1a;
+      --muted: #77736b;
+      --line: #d9d4c8;
+      --accent: #d2492a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Zen Kaku Gothic New", system-ui, sans-serif;
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; }
+    .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+    /* Header */
+    header { border-bottom: 1px solid var(--line); }
+    header .wrap { display: flex; justify-content: space-between; align-items: center; height: 64px; }
+    .logo { display: block; line-height: 0; }
+    .logo img { width: 36px; height: 36px; display: block; }
+    nav a { margin-left: 24px; text-decoration: none; font-size: .9rem; color: var(--muted); }
+    nav a:hover { color: var(--ink); }
+
+    /* Hero */
+    .hero { padding: 96px 0 72px; }
+    .hero .label { font-size: .8rem; letter-spacing: .2em; color: var(--accent); text-transform: uppercase; }
+    .hero h1 {
+      font-family: "DM Serif Display", serif;
+      font-weight: 400;
+      font-size: clamp(2.6rem, 7vw, 5rem);
+      line-height: 1.05;
+      margin: 12px 0 24px;
+    }
+    .hero p { max-width: 560px; color: var(--muted); }
+
+    /* Works */
+    section { padding: 64px 0; border-top: 1px solid var(--line); }
+    .section-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 32px; }
+    .section-head h2 { font-family: "DM Serif Display", serif; font-weight: 400; font-size: 2rem; }
+    .section-head small { color: var(--muted); }
+    .works { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 40px 32px; }
+    .work figure { overflow: hidden; background: #e8e3d8; aspect-ratio: 4 / 3; }
+    .work img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s ease; }
+    .work:hover img { transform: scale(1.03); }
+    .work .meta { display: flex; justify-content: space-between; margin-top: 14px; font-size: .8rem; color: var(--muted); }
+    .work h3 { font-size: 1.1rem; margin: 4px 0 6px; }
+    .work p { font-size: .9rem; color: var(--muted); }
+
+    /* About */
+    .about { display: grid; grid-template-columns: 1fr 2fr; gap: 32px; }
+    .about dl { display: grid; grid-template-columns: 100px 1fr; gap: 8px 16px; font-size: .9rem; margin-top: 20px; }
+    .about dt { color: var(--muted); }
+
+    footer { padding: 32px 0 48px; border-top: 1px solid var(--line); font-size: .8rem; color: var(--muted); }
+
+    @media (max-width: 640px) {
+      .about { grid-template-columns: 1fr; }
+      nav a { margin-left: 16px; }
+      .hero { padding: 64px 0 48px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="wrap">
+      <a class="logo" href="#" aria-label="N. — トップへ"><img src="logo/final/logo.svg" alt="N." width="36" height="36"></a>
+      <nav>
+        <a href="#works">Works</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="hero">
+      <div class="label">Portfolio</div>
+      <h1>Design, Photo<br>&amp; Small Things.</h1>
+    </div>
+
+    <section id="works">
+      <div class="section-head">
+        <h2>Works</h2>
+        <small>作品</small>
+      </div>
+
+      <div class="works">
+        <!-- ===== 作品1：Personal Logo ===== -->
+        <article class="work">
+          <figure>
+            <img src="works/logo-process.png" alt="Personal Logo の制作過程：ラフ6案、3バリエーション、最終案" width="1600" height="1200">
+          </figure>
+          <div class="meta">
+            <span>Graphic Design</span>
+            <span>2026</span>
+          </div>
+          <h3>Personal Logo</h3>
+          <p>頭文字「N」をモチーフにした自分のロゴ。データを読み取る走査線で枠を描き、Nを余白として浮かび上がらせました。ラフ6案から3つの展開を経て形にしています。</p>
+        </article>
+        <!-- 作品を増やすときは <article class="work"> ... </article> をコピーして追加 -->
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="section-head">
+        <h2>About</h2>
+      </div>
+      <div>
+        <dl>
+          <dt>Field</dt><dd>Information &amp; Data Science</dd>
+          <dt>Skills</dt><dd>HTML / CSS / JavaScript, PHP, Figma</dd>
+          <dt>Interests</dt><dd>UI Design, Web Development, Photography</dd>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 N. — All works by the author.</div>
+  </footer>
+
+</body>
+</html>

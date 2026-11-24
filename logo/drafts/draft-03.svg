@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Draft 03: 枠の中のN">
+  <path fill="#1d1c1a" fill-rule="evenodd" d="
+    M56 24 H144 A32 32 0 0 1 176 56 V144 A32 32 0 0 1 144 176 H56 A32 32 0 0 1 24 144 V56 A32 32 0 0 1 56 24 Z
+    M62 52 V148 H80 V90 L120 148 H138 V52 H120 V110 L80 52 Z"/>
+</svg>

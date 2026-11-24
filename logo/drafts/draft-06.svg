@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Draft 06: ピクセルグリッドのN">
+  <g fill="#1d1c1a">
+    <rect x="37" y="37" width="22" height="22"/>
+    <rect x="141" y="37" width="22" height="22"/>
+    <rect x="37" y="63" width="22" height="22"/>
+    <rect x="63" y="63" width="22" height="22"/>
+    <rect x="141" y="63" width="22" height="22"/>
+    <rect x="37" y="89" width="22" height="22"/>
+    <rect x="89" y="89" width="22" height="22"/>
+    <rect x="141" y="89" width="22" height="22"/>
+    <rect x="37" y="115" width="22" height="22"/>
+    <rect x="115" y="115" width="22" height="22"/>
+    <rect x="141" y="115" width="22" height="22"/>
+    <rect x="37" y="141" width="22" height="22"/>
+    <rect x="141" y="141" width="22" height="22"/>
+    <circle cx="74" cy="48" r="2.5"/>
+    <circle cx="100" cy="48" r="2.5"/>
+    <circle cx="126" cy="48" r="2.5"/>
+    <circle cx="100" cy="74" r="2.5"/>
+    <circle cx="126" cy="74" r="2.5"/>
+    <circle cx="74" cy="100" r="2.5"/>
+    <circle cx="126" cy="100" r="2.5"/>
+    <circle cx="74" cy="126" r="2.5"/>
+    <circle cx="100" cy="126" r="2.5"/>
+    <circle cx="74" cy="152" r="2.5"/>
+    <circle cx="100" cy="152" r="2.5"/>
+    <circle cx="126" cy="152" r="2.5"/>
+  </g>
+</svg>
